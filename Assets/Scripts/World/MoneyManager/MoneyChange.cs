@@ -5,14 +5,17 @@ using UnityEngine;
 
 public class MoneyChange : MonoBehaviour
 {
+    public static MoneyChange Instance { get; private set; }
+    
     [HideInInspector] public int moneyInProcessGame;
 
     [SerializeField] private GlobalMoneyManager globalMoneyManager; 
     [SerializeField] private Text  changeMoneyText;
     
 
-    void Start()
+    void Awake()
     {
+        Instance = this;
         moneyInProcessGame = globalMoneyManager.startMoney;
         changeMoneyText.text = globalMoneyManager.startMoney.ToString();
         StartCoroutine(routine: MoneyToSecond());

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabEnemy: {fileID: 8544039672428982978, guid: b46cc9494d84940449aa0515fef0c441,
     type: 3}
-  healthEnemy: 5
+  healthEnemy: 30
   giveMoneyForDeath: 30

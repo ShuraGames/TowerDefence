@@ -7,11 +7,9 @@ public class EnemyLife : MonoBehaviour
     public float healthEnemy;
 
    [SerializeField] private DefaultEnemy defaultEnemy;
-   private MoneyChange moneyChange;
 
    private void Start() 
    {
-       moneyChange = GameObject.FindWithTag("MoneyManager").GetComponent<MoneyChange>();
        healthEnemy = defaultEnemy.healthEnemy;
    }  
 
@@ -19,7 +17,7 @@ public class EnemyLife : MonoBehaviour
    {
        if(healthEnemy <= 0)
        {
-           moneyChange.GetMoney(defaultEnemy.giveMoneyForDeath);
+           MoneyChange.Instance.GetMoney(30);
            Destroy(gameObject);
        }
    }
