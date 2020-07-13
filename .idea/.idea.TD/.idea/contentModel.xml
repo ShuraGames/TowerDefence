@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ShuraProger\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ShuraProger\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_TD.1953218309.00" t="ExcludeRecursive" />
+    <e p="E:\Git\TD" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Bullet" t="Include">
+            <e p="BulletDamage.cs" t="Include" />
+            <e p="BulletMove.cs" t="Include" />
+          </e>
+          <e p="Enemy" t="Include">
+            <e p="EnemyLife.cs" t="Include" />
+            <e p="EnemyList.cs" t="Include" />
+            <e p="EnemyMove.cs" t="Include" />
+            <e p="EnemyScriptableObjects" t="Include">
+              <e p="DefaultEnemy.cs" t="Include" />
+            </e>
+            <e p="EnemySpawner.cs" t="Include" />
+          </e>
+          <e p="TawerCreate" t="Include">
+            <e p="ActiveZone.cs" t="Include" />
+            <e p="TawerCreate.cs" t="Include" />
+            <e p="TowerAttack.cs" t="Include" />
+            <e p="TowerDefault.cs" t="Include" />
+          </e>
+          <e p="World" t="Include">
+            <e p="ChioseSelection.cs" t="Include" />
+            <e p="MoneyManager" t="Include">
+              <e p="ManagerScriptableObject" t="Include">
+                <e p="GlobalMoneyManager.cs" t="Include" />
+              </e>
+              <e p="MoneyChange.cs" t="Include" />
+            </e>
+            <e p="RandomRotate.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TD.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
