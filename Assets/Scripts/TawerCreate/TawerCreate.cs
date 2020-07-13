@@ -49,6 +49,7 @@ public class TawerCreate : MonoBehaviour {
                         Instantiate(towerPrefab[indexChoiseTawer].prefab, new Vector3(hit.transform.localPosition.x, 0.4f, hit.transform.localPosition.z), 
                         Quaternion.Euler(-90, towerAngle, 0));
                         hit.collider.GetComponent<ChioseSelection>().isChoise = true;
+                        nextChoise.GetComponent<ChioseSelection>().isHover = false;
                         MoneyChange.Instance.GiveMoney(30);
                         towerChoise = false;
                         towerAngle = -180;
