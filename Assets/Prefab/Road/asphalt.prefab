@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1079034920942680893}
   - component: {fileID: 6896519736456112063}
-  - component: {fileID: -3481713208059191636}
   - component: {fileID: 7905544751873870106}
+  - component: {fileID: 1884839858752605963}
   m_Layer: 0
   m_Name: asphalt
   m_TagString: Untagged
@@ -48,21 +48,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeRotate: 1
---- !u!114 &-3481713208059191636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4081063166154459438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 272aab673bc5ae54c9b94105841e0e30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isChoise: 0
-  isHover: 0
-  hoverEffect: {fileID: 7345942942354631001}
 --- !u!65 &7905544751873870106
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76,6 +61,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.43615454, z: 2}
   m_Center: {x: 0, y: 0.21620822, z: 0}
+--- !u!114 &1884839858752605963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4081063166154459438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272aab673bc5ae54c9b94105841e0e30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isChoise: 0
+  isHover: 0
+  hoverEffect: {fileID: 6086051043428590838, guid: 2461ae5142bf6994382e04d6d954a592,
+    type: 3}
 --- !u!1 &7543129138524695731
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,12 +230,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2461ae5142bf6994382e04d6d954a592, type: 3}
---- !u!1 &7345942942354631001 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6086051043428590838, guid: 2461ae5142bf6994382e04d6d954a592,
-    type: 3}
-  m_PrefabInstance: {fileID: 3569092818802642351}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6028439699335617354 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7074775636646172389, guid: 2461ae5142bf6994382e04d6d954a592,

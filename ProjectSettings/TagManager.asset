@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - ActiveZone
   - MoneyManager
+  - Tower
   layers:
   - Default
   - TransparentFX

@@ -89,7 +89,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8708564244568635401}
   - component: {fileID: 244150928475915060}
-  - component: {fileID: -6766062820970382584}
+  - component: {fileID: 2780875503488363856}
   m_Layer: 0
   m_Name: tailForward
   m_TagString: Untagged
@@ -126,7 +126,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0277348, y: 2, z: 0.43288532}
   m_Center: {x: 0, y: 0, z: 0.20767127}
---- !u!114 &-6766062820970382584
+--- !u!114 &2780875503488363856
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,6 +138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272aab673bc5ae54c9b94105841e0e30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isChoise: 0
+  isHover: 0
   hoverEffect: {fileID: 5075182978189072802}
 --- !u!1001 &1304727960018058580
 PrefabInstance:

@@ -19,10 +19,11 @@ public class TawerCreate : MonoBehaviour {
             RaycastHit hit;
             Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         
-            if(Physics.Raycast(ray, out  hit, 5000f, layerMask: objectSelectionMask));
+            if(Physics.Raycast(ray, out  hit, 5000f, layerMask: objectSelectionMask))
             {
                 
-                if(hit.collider.GetComponent<ChioseSelection>() != null){
+                if(hit.collider.GetComponent<ChioseSelection>() != null)
+                {
                     var lastHit = hit.collider;
                     if(nextChoise != null)
                     {   

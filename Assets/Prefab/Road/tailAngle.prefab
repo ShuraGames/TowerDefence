@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4082009943454133039}
-  - component: {fileID: -7287788447035347906}
+  - component: {fileID: -8473400109808246312}
   m_Layer: 0
   m_Name: tailAngle
   m_TagString: Untagged
@@ -33,7 +33,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &-7287788447035347906
+--- !u!114 &-8473400109808246312
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45,6 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 272aab673bc5ae54c9b94105841e0e30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isChoise: 0
+  isHover: 0
   hoverEffect: {fileID: 6652658716283311756}
 --- !u!1 &6841290119171554465
 GameObject:
